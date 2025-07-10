@@ -5,6 +5,7 @@ import Hero from './component/Hero'
 import ColabArea from './component/compb'
 import GridArea from './component/Grid'
 import PreferedArea from './component/prefered'
+import TestimonialSlider from './component/Slider'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
      <ColabArea/>
      <GridArea/>
      <PreferedArea/>
+     <TestimonialSlider/>
    </main>
    
     </>
