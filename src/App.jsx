@@ -4,6 +4,7 @@ import NavArea from './component/Navbar'
 import Hero from './component/Hero'
 import ColabArea from './component/compb'
 import GridArea from './component/Grid'
+import PreferedArea from './component/prefered'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
      <Hero/>
      <ColabArea/>
      <GridArea/>
+     <PreferedArea/>
    </main>
    
     </>
