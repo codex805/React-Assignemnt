@@ -38,14 +38,17 @@ function Slider() {
      <section className='bg-[#002228] max-w-[1400px] mx-auto p-8'>
            <div className='flex justify-between items-center flex-col lg:flex-row md:m-[50px]'>
                <button onClick={prevSlide} className='bg-[#96ACAF] p-3 rounded-md'><i class="fa-solid fa-arrow-left "></i></button>
+               
                <div className='max-w-[650px] md:mx-auto md:justify-center md:items-center'>
                     <div className='mx-auto flex justify-center py-4 md:py-0'>
                          <img src="/quote (1).svg" alt="" />
                     </div>
+
                     <p className='text-lg md:text-3xl lg:text-3xl  py-4 text-gray-500 md:w-[800px] sm:w-[400px] w-[350px]'>{SliedrArray[index].quote}</p>
                     <h1 className='mt-4 text-bold text-[#0FF1F6] text-2xl text-center'>{SliedrArray[index].name}</h1>
                     <p className='text-gray-500 leading-tight tracking-tight text-sm text-center py-3 md:py-0'>{SliedrArray[index].role}</p>
                </div>
+
                <button onClick={NextSlide} className='bg-[#96ACAF] p-3 rounded-md'><i class="fa-solid fa-arrow-right "></i></button>
            </div>
      </section>
