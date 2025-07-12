@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 
+
 function Slider() {
     const SliedrArray = [
           {
@@ -9,6 +10,7 @@ function Slider() {
     name: "John Doe",
     role: "Chief Strategy Officer @ Company",
   },
+
   {
     quote:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
@@ -32,6 +34,7 @@ function Slider() {
   const NextSlide = () => {
     setIndex((prev) => (prev ===  SliedrArray.length - 1 ? 0 : prev + 1))
   }
+
 
   return (
    <>
