@@ -1,6 +1,7 @@
 import React from 'react'
 
 function ColabArea() {
+
   return (
     <>
      <div className='flex flex-col justify-center items-center py-6 mt-7 bg-[#07292F]'>
@@ -14,6 +15,7 @@ function ColabArea() {
      </div>
     </>
   )
+  
 }
 
 export default ColabArea;
