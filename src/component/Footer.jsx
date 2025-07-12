@@ -1,9 +1,11 @@
 import React from 'react'
 import {Button} from "@heroui/react";
+
 function Footer() {
     const NewYear =  new Date().getFullYear();
   return (
     
+
     <>
      <section className='max-w-[1400px] mx-auto '>
         <div className='flex flex-col justify-center items-center'>
@@ -15,6 +17,7 @@ function Footer() {
              Sign Up for the Beta
           </Button>
         </div>
+        
         {/*  */}
         <div className='mt-5 p-12 flex justify-between items-center bg-[#07292F] flex-col md:flex-row gap-3'>
             <img src="/Logo.svg" alt="" />
