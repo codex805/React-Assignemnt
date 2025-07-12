@@ -1,6 +1,7 @@
 import React from 'react'
 import {Button} from "@heroui/react";
 
+
 function Hero() {
   return (
     <>
@@ -17,6 +18,7 @@ function Hero() {
         <img className='w-full object-covor ml-[-20px]  z-0"' src="/hero.svg" alt="" />
       </section>
     </>
+    
   )
 }
 
