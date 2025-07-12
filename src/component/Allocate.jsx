@@ -21,6 +21,7 @@ function Allocate() {
      <>
        <section className='max-w-[1400px] mx-auto'>
            <div className='m-10 bg-[#02242A]   md:p-10 rounded-sm flex justify-around flex-col md:flex-row '>
+
               <div className=' flex  flex-col justify-center z-50 '>
                   <h1 className='text-xl md:text-2xl lg:3xl text-white font-bold'>Allocate effort where your reps <br></br> make an inpact</h1>
                   <h3 className='text-lg md:text-xl lg:2xl text-[#0FF1F6] font-bold py-4'>Let us handle the rest.</h3>
@@ -36,10 +37,12 @@ function Allocate() {
                         ))
                      }
                   </div>
+
               </div>
               <img src="/hero.svg" alt="" className='md:ml-[-580px] mt-10  h-auto z-40 z-0'/> 
            </div>
        </section>
+       
      </>
   )
 }
