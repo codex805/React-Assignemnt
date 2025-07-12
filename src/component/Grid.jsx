@@ -2,6 +2,7 @@ import React from 'react'
 
 function GridArea() {
 
+
     const Group = [
         {
             img: "/quote (1).svg",
@@ -21,6 +22,7 @@ function GridArea() {
             discription: "Train an aiDR on an outbound patch, to nurture inbound leads, or to reach out to your long tail of SMB customers at renewal time."
         },
     ]
+
   return (
     <>
      <section className='max-w-[1400px] mx-auto'>
@@ -36,6 +38,7 @@ function GridArea() {
             }
         </div>
      </section>
+     
     </>
   )
 }
