@@ -9,6 +9,7 @@ import TestimonialSlider from './component/Slider'
 import Allocate from './component/Allocate'
 import Footer from './component/Footer'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -25,6 +26,7 @@ function App() {
      < Allocate/>
      <Footer/>
    </main>
+   
    
     </>
   )
